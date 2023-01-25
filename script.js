@@ -96,7 +96,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {var check = function (it) {
-    return it && it.Math == Math && it;
+  return it && it.Math == Math && it;
 };
 
 // https://github.com/zloirock/core-js/issues/86#issuecomment-115759028
@@ -16188,7 +16188,8 @@ Webflow.define('brand', module.exports = function ($) {
   }
 
   function createBadge() {
-   return;
+   
+    return;
   }
 
   function ensureBrand() {
