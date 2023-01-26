@@ -1,4 +1,4 @@
-/* Generated on: Thu Jan 26 2023 16:45:32 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Thu Jan 26 2023 16:57:43 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -4219,6 +4219,10 @@ p {
     line-height: 44px;
   }
 
+  .heading-2-small.text-white {
+    color: #fff;
+  }
+
   .benefits-icon {
     width: 32px;
     margin-right: 12px;
@@ -4381,6 +4385,10 @@ p {
 
   .image-6 {
     display: none;
+  }
+
+  .bold-text-2 {
+    color: #00ff59;
   }
 }
 
