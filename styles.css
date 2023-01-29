@@ -1,4 +1,4 @@
-/* Generated on: Sat Jan 28 2023 00:35:34 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Sun Jan 29 2023 16:29:05 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -496,9 +496,10 @@ p {
 
 .section.grain.top-140 {
   padding-top: 140px;
-  background-image: url("https://uploads-ssl.webflow.com/63cf186b2479a1096733f7d3/63cfaa8fa2891bfe797f97ef_image%20(1).png");
-  background-position: 50% 50%;
-  background-size: auto;
+  background-color: transparent;
+  background-image: url("https://uploads-ssl.webflow.com/63cf186b2479a1096733f7d3/63cf186c2479a11b6833f815_Grain_Latest.png"), url("https://uploads-ssl.webflow.com/63cf186b2479a1096733f7d3/63d00b916efb95d83471e56f_image%20(2).png");
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
   opacity: 1;
   mix-blend-mode: normal;
 }
@@ -2456,6 +2457,7 @@ p {
 }
 
 .circle-blur-top-left-2.safari {
+  background-image: linear-gradient(132deg, #0af855 14%, #12f033 33%, #0bb9ee 79%);
   opacity: 0.97;
   -webkit-filter: blur(64px) blur(64px);
   filter: blur(64px) blur(64px);
@@ -2886,7 +2888,8 @@ p {
 }
 
 .bold-text {
-  font-family: Montserrat, sans-serif;
+  padding-right: 520px;
+  font-family: Relative, sans-serif;
   color: #fff;
 }
 
@@ -3054,6 +3057,10 @@ p {
 .rl-padding-global {
   margin-top: 3px;
   padding: 0px 5%;
+  background-color: transparent;
+  background-image: none;
+  background-position: 0px 0px;
+  background-size: auto;
 }
 
 .rl_section_layout192 {
@@ -3265,14 +3272,15 @@ p {
   }
 
   .section.grain.top-140 {
-    background-image: url("https://uploads-ssl.webflow.com/63cf186b2479a1096733f7d3/63d00b916efb95d83471e56f_image%20(2).png");
-    background-position: 50% 50%;
-    background-size: cover;
+    background-image: url("https://uploads-ssl.webflow.com/63cf186b2479a1096733f7d3/63cf186c2479a11b6833f815_Grain_Latest.png"), url("https://uploads-ssl.webflow.com/63cf186b2479a1096733f7d3/63d00b916efb95d83471e56f_image%20(2).png");
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
   }
 
   .section.grain.padding-top-40 {
-    background-color: hsla(0, 0%, 100%, 0);
+    background-color: transparent;
     background-image: none;
+    background-position: 0px 0px;
     background-size: auto;
   }
 
@@ -3320,6 +3328,10 @@ p {
   .grid-2-col.margin-l {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
+  }
+
+  .page-wrapper {
+    background-color: transparent;
   }
 
   .circle-blur-bottom-right-2.safari {
@@ -3399,6 +3411,10 @@ p {
     background-color: #fff;
   }
 
+  .bold-text {
+    font-family: Relative, sans-serif;
+  }
+
   .bold-text-2 {
     color: #94e6ff;
   }
@@ -3436,6 +3452,12 @@ p {
     grid-template-areas: ".";
     -ms-grid-columns: 0.5fr;
     grid-template-columns: 0.5fr;
+  }
+
+  .rl-padding-global {
+    background-image: none;
+    background-position: 0px 0px;
+    background-size: auto;
   }
 
   .image-14 {
@@ -3541,9 +3563,15 @@ p {
 
   .section.grain.top-140 {
     padding-top: 120px;
-    background-image: url("https://uploads-ssl.webflow.com/63cf186b2479a1096733f7d3/63cfaa8fa2891bfe797f97ef_image%20(1).png");
-    background-position: 50% 50%;
-    background-size: cover;
+    padding-right: 0px;
+    background-image: url("https://uploads-ssl.webflow.com/63cf186b2479a1096733f7d3/63cf186c2479a11b6833f815_Grain_Latest.png"), url("https://uploads-ssl.webflow.com/63cf186b2479a1096733f7d3/63d00b916efb95d83471e56f_image%20(2).png");
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+  }
+
+  .section.grain.padding-top-40 {
+    background-image: none;
+    background-size: auto;
   }
 
   .section.grain.subpage-hero {
@@ -3868,7 +3896,7 @@ p {
   }
 
   .hero-heading {
-    position: relative;
+    padding-right: 0px;
   }
 
   .fixed-cta-container {
@@ -3969,7 +3997,10 @@ p {
   }
 
   .bold-text {
-    font-family: Montserrat, sans-serif;
+    font-family: Relative, sans-serif;
+    color: #fff;
+    font-weight: 700;
+    text-align: left;
   }
 
   .rl-text-style-medium {
@@ -4598,6 +4629,7 @@ p {
   }
 
   .bold-text {
+    padding-right: 168px;
     font-family: Montserrat, sans-serif;
   }
 
@@ -4749,6 +4781,8 @@ p {
   }
 
   .section.grain.top-140 {
+    padding-top: 127px;
+    padding-bottom: 0px;
     background-color: transparent;
     background-image: url("https://uploads-ssl.webflow.com/63cf186b2479a1096733f7d3/63d00b916efb95d83471e56f_image%20(2).png");
     background-position: 49% 50%;
@@ -4955,6 +4989,11 @@ p {
     display: none;
   }
 
+  .bold-text {
+    padding-right: 0px;
+    text-align: left;
+  }
+
   .bold-text-2 {
     color: #00ff59;
   }
@@ -4964,9 +5003,7 @@ p {
   }
 
   .rl-text-style-medium {
-    padding-top: 0px;
-    padding-right: 27px;
-    padding-bottom: 38px;
+    padding: 0px 27px 38px 11px;
     font-family: Relative, sans-serif;
     color: #000;
     font-size: 18px;
@@ -4976,9 +5013,7 @@ p {
 
   .rl-heading-style-h2 {
     margin-top: -2.5rem;
-    padding-top: 0px;
-    padding-right: 0px;
-    padding-bottom: 0px;
+    padding: 0px 0px 0px 12px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
     color: #000;
     font-size: 36px;
