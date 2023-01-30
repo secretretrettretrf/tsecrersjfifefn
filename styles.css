@@ -1,4 +1,4 @@
-/* Generated on: Mon Jan 30 2023 18:28:16 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Jan 30 2023 18:35:32 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -5111,7 +5111,9 @@ p {
   .section.grain.top-140 {
     padding-top: 127px;
     padding-bottom: 0px;
+    padding-left: 0px;
     background-color: transparent;
+    background-position: 0% 0%, 0px 0px, 48% 50%;
     opacity: 1;
     -webkit-filter: none;
     filter: none;
@@ -5326,9 +5328,9 @@ p {
 
   .bold-text {
     display: block;
-    margin: -7px -243px 71px -19px;
-    padding: 0px 22px 0px 0px;
-    font-size: 46px;
+    margin: -40px 12px 0px 0px;
+    padding: 0px 57px 0px 39px;
+    font-size: 55px;
     text-align: left;
   }
 
