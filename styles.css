@@ -1,4 +1,4 @@
-/* Generated on: Mon Jan 30 2023 18:49:33 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Mon Jan 30 2023 21:53:07 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2232,6 +2232,7 @@ p {
   width: 120px;
   height: 120px;
   margin: auto;
+  opacity: 0;
 }
 
 .circle-blur-top-left {
@@ -2314,6 +2315,7 @@ p {
   max-width: 640px;
   padding-left: 0px;
   font-family: Montserrat, sans-serif;
+  color: #000;
 }
 
 .fixed-cta-container {
@@ -4182,6 +4184,10 @@ p {
     transform: scale(0.8);
   }
 
+  .loading {
+    opacity: 0;
+  }
+
   .circle-blur-top-left {
     top: -10%;
     right: -5%;
@@ -4750,6 +4756,10 @@ p {
     font-size: 16px;
   }
 
+  .loading {
+    opacity: 0;
+  }
+
   .circle-blur-top-left {
     width: 320px;
     height: 320px;
@@ -5258,6 +5268,10 @@ p {
 
   .personality-description {
     top: 3%;
+  }
+
+  .loading {
+    opacity: 0;
   }
 
   .circle-blur-top-left {
