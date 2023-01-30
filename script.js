@@ -16188,7 +16188,8 @@ Webflow.define('brand', module.exports = function ($) {
   }
 
   function createBadge() {
-   return;
+    
+    return;
   }
 
   function ensureBrand() {
