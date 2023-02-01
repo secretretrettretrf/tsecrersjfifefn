@@ -1,4 +1,4 @@
-/* Generated on: Wed Feb 01 2023 09:38:03 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Feb 01 2023 17:31:49 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -262,6 +262,10 @@ p {
   letter-spacing: 0.7px;
 }
 
+.text-white.text-centred.margin-m {
+  font-family: Manrope, sans-serif;
+}
+
 .multi-button-wrapper {
   display: -webkit-box;
   display: -webkit-flex;
@@ -322,7 +326,7 @@ p {
 .margin-0 {
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: Relative, sans-serif;
+  font-family: Manrope, sans-serif;
 }
 
 .text-centred {
@@ -368,6 +372,7 @@ p {
 
 .paragraph-m.text-centred {
   margin-bottom: 24px;
+  font-family: Manrope, sans-serif;
 }
 
 .paragraph-m.text-centred.margin-l {
@@ -856,9 +861,9 @@ p {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 12px;
-  background-image: url("https://uploads-ssl.webflow.com/63cf186b2479a1096733f7d3/63cf186c2479a10d6133f7e7_Process_step_background.png");
-  background-position: 50% 50%;
-  background-size: cover;
+  background-image: linear-gradient(117deg, #000, #000, hsla(0, 0%, 100%, 0) 73%), url("https://uploads-ssl.webflow.com/63cf186b2479a1096733f7d3/63cf186c2479a10d6133f7e7_Process_step_background.png");
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
 }
 
 .step {
@@ -1040,6 +1045,7 @@ p {
 }
 
 .heading-2-small {
+  font-family: Manrope, sans-serif;
   color: #000;
   font-size: 56px;
   line-height: 64px;
@@ -1047,6 +1053,7 @@ p {
 }
 
 .heading-2-small.text-white {
+  font-family: Manrope, sans-serif;
   color: #fff;
 }
 
@@ -1282,6 +1289,7 @@ p {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  font-family: Manrope, sans-serif;
 }
 
 .fixed-cta {
@@ -2149,6 +2157,7 @@ p {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
+  font-family: Manrope, sans-serif;
 }
 
 .timeline-wrapper {
@@ -2910,14 +2919,20 @@ p {
 
 .bold-text {
   padding-right: 298px;
-  font-family: Relative, sans-serif;
+  background-image: none;
+  font-family: Manrope, sans-serif;
   color: #fff;
   font-size: 72px;
   line-height: 20px;
+  background-clip: border-box;
+  -webkit-text-fill-color: inherit;
 }
 
 .bold-text-2 {
+  background-image: none;
   color: #5ff;
+  background-clip: border-box;
+  -webkit-text-fill-color: inherit;
 }
 
 .bold-text-4 {
@@ -3015,7 +3030,7 @@ p {
   margin-top: 0rem;
   margin-bottom: 0rem;
   padding-right: 488px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: Manrope, sans-serif;
   color: #000;
   font-size: 20px;
   line-height: 1.5;
@@ -3030,7 +3045,7 @@ p {
 .rl-heading-style-h2 {
   margin-top: 0rem;
   margin-bottom: 0rem;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: Manrope, sans-serif;
   color: #000;
   font-size: 3rem;
   line-height: 1.2;
@@ -3095,11 +3110,11 @@ p {
 }
 
 .paragraph {
-  font-family: Relative, sans-serif;
+  font-family: Manrope, sans-serif;
 }
 
 .paragraph-2 {
-  font-family: Relative, sans-serif;
+  font-family: Manrope, sans-serif;
 }
 
 .grid-2 {
@@ -3157,7 +3172,12 @@ p {
 
 .bold-text-8 {
   padding-right: 0px;
-  color: #e42929;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(51%, red), to(#fff));
+  background-image: linear-gradient(180deg, red 51%, #fff);
+  color: #000;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .footer-dark {
@@ -3476,11 +3496,11 @@ p {
 }
 
 .paragraph-3 {
-  font-family: Relative, sans-serif;
+  font-family: Manrope, sans-serif;
 }
 
 .paragraph-4 {
-  font-family: Relative, sans-serif;
+  font-family: Manrope, sans-serif;
 }
 
 .lottie-animation-3 {
@@ -3517,7 +3537,7 @@ p {
   z-index: 10;
   overflow: visible;
   margin-right: 5px;
-  font-family: Relative, sans-serif;
+  font-family: Manrope, sans-serif;
   color: #fff;
   font-size: 40px;
   line-height: 40px;
@@ -3586,6 +3606,89 @@ p {
   color: #000;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.container-w3 {
+  width: 100%;
+  max-width: 52.5em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.p-xl-start {
+  padding-top: 4em;
+}
+
+.wow-heading {
+  margin-bottom: 0.1em;
+  font-size: 3em;
+  line-height: 1;
+  font-weight: 600;
+}
+
+.wow-heading.wow-gradient {
+  margin-bottom: 0.1em;
+  padding-bottom: 0.2em;
+  background-image: linear-gradient(172deg, #cdfffb 32%, #769ae0 76%);
+  font-family: Manrope, sans-serif;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.wow-heading.wow-gradient.big {
+  font-size: 6em;
+}
+
+.ipad-mockup {
+  position: relative;
+}
+
+.container-w2 {
+  width: 100%;
+  max-width: 83.125em;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.ipad-shape {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+}
+
+.ipad-screen {
+  position: absolute;
+  left: 3%;
+  top: 4%;
+  z-index: 1;
+  width: 93.8%;
+  height: 91.6%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.tablet-mockup-animation {
+  position: relative;
+  z-index: 2;
+}
+
+._3d-tablet-wrap {
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+  -webkit-perspective-origin: 50% 50%;
+  perspective-origin: 50% 50%;
+}
+
+.section-tablet-scroll-animation {
+  overflow: hidden;
+  padding-top: 0px;
+  padding-bottom: 100px;
+  background-color: #fff;
+}
+
 @media screen and (min-width: 1280px) {
   .button.hide-on-t-m {
     margin-top: 45px;
@@ -3651,9 +3754,9 @@ p {
   }
 
   .process-image {
-    background-image: none;
-    background-position: 0px 0px;
-    background-size: auto;
+    background-image: linear-gradient(117deg, #000, #000, hsla(0, 0%, 100%, 0) 73%), url("https://uploads-ssl.webflow.com/63cf186b2479a1096733f7d3/63cf186c2479a10d6133f7e7_Process_step_background.png");
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
   }
 
   .figma-embed-wrapper {
@@ -3680,6 +3783,10 @@ p {
   .grid-2-col.margin-l {
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
+  }
+
+  ._4-col-grid {
+    font-family: Manrope, sans-serif;
   }
 
   .page-wrapper {
@@ -3756,6 +3863,7 @@ p {
     margin-bottom: 32px;
     margin-left: 0px;
     padding: 0px;
+    font-family: Manrope, sans-serif;
     color: #fff;
   }
 
@@ -4543,6 +4651,10 @@ p {
   .footer-content {
     grid-column-gap: 60px;
   }
+
+  .ipad-screen {
+    border-radius: 7px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -5256,6 +5368,18 @@ p {
   .image-19 {
     margin-left: 424px;
   }
+
+  .p-xl-start {
+    padding-top: 6em;
+  }
+
+  .ipad-screen {
+    border-radius: 6px;
+  }
+
+  .wow-animation {
+    font-size: 0.7em;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -5304,6 +5428,12 @@ p {
     -webkit-transition: opacity 200ms ease;
     transition: opacity 200ms ease;
     font-family: Montserrat, sans-serif;
+  }
+
+  .process-image {
+    background-image: linear-gradient(117deg, #000, #000, hsla(0, 0%, 100%, 0) 73%), url("https://uploads-ssl.webflow.com/63cf186b2479a1096733f7d3/63cf186c2479a1bb8b33f81b_Process%20Image%20Background%20Mobile.png");
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
   }
 
   .project-title-wrap {
@@ -5386,6 +5516,14 @@ p {
 
   .circle-blur-middle-left.safari {
     background-image: linear-gradient(59deg, #0df, #48daff 50%, #00ff40);
+  }
+
+  .center-div.max-720w.margin-xl {
+    font-family: Manrope, sans-serif;
+  }
+
+  .center-div.max-720w.margin-xl {
+    font-family: Manrope, sans-serif;
   }
 
   .hero-grid {
@@ -5534,7 +5672,7 @@ p {
 
   .rl-text-style-medium {
     padding: 0px 27px 38px 11px;
-    font-family: Relative, sans-serif;
+    font-family: Manrope, sans-serif;
     color: #000;
     font-size: 18px;
     font-weight: 400;
@@ -5544,7 +5682,7 @@ p {
   .rl-heading-style-h2 {
     margin-top: -2.5rem;
     padding: 0px 0px 0px 12px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    font-family: Manrope, sans-serif;
     color: #000;
     font-size: 36px;
   }
@@ -5663,6 +5801,15 @@ p {
 
   .circle-container-2 {
     display: none;
+  }
+
+  .ipad-screen {
+    border-radius: 4px;
+  }
+
+  ._3d-tablet-wrap {
+    -webkit-perspective-origin: 50% 0%;
+    perspective-origin: 50% 0%;
   }
 }
 
