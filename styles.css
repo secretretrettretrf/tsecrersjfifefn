@@ -1,4 +1,4 @@
-/* Generated on: Wed Feb 01 2023 18:22:49 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Feb 01 2023 18:43:38 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -327,6 +327,7 @@ p {
   margin-top: 0px;
   margin-bottom: 0px;
   font-family: Manrope, sans-serif;
+  font-weight: 600;
 }
 
 .text-centred {
@@ -1049,12 +1050,13 @@ p {
   color: #000;
   font-size: 56px;
   line-height: 64px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .heading-2-small.text-white {
   font-family: Manrope, sans-serif;
   color: #fff;
+  font-weight: 600;
 }
 
 .img-24 {
@@ -3638,6 +3640,7 @@ p {
 }
 
 .wow-heading.wow-gradient.big {
+  background-image: none;
   font-size: 6em;
 }
 
@@ -4119,6 +4122,10 @@ p {
 
   .circle-container-2 {
     margin-top: -8px;
+  }
+
+  .wow-heading.wow-gradient {
+    background-image: none;
   }
 }
 
@@ -5417,6 +5424,10 @@ p {
     flex-direction: column;
   }
 
+  .margin-0 {
+    font-weight: 600;
+  }
+
   .section.grain {
     padding-top: 0px;
     background-image: none;
@@ -5467,6 +5478,7 @@ p {
   .heading-2-small {
     font-size: 36px;
     line-height: 44px;
+    font-weight: 600;
   }
 
   .heading-2-small.text-white {
