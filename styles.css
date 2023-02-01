@@ -1,4 +1,4 @@
-/* Generated on: Wed Feb 01 2023 17:31:49 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Feb 01 2023 18:09:14 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -5850,68 +5850,6 @@ p {
 #w-node-_56e3d9d2-042f-1fc0-0f8f-5151adc683a7-4d3af0b4 {
   -ms-grid-column-align: end;
   justify-self: end;
-}
-
-@media screen and (min-width: 1280px) {
-  #w-node-_9cd32b0d-4963-2841-49c5-d19daa83528e-513af0b0 {
-    -ms-grid-column: span 1;
-    grid-column-start: span 1;
-    -ms-grid-column-span: 1;
-    grid-column-end: span 1;
-    -ms-grid-row: span 1;
-    grid-row-start: span 1;
-    -ms-grid-row-span: 1;
-    grid-row-end: span 1;
-  }
-
-  #w-node-_1364441d-aefb-a156-e66a-d93c58f914e4-513af0b0 {
-    -ms-grid-column: span 1;
-    grid-column-start: span 1;
-    -ms-grid-column-span: 1;
-    grid-column-end: span 1;
-    -ms-grid-row: span 1;
-    grid-row-start: span 1;
-    -ms-grid-row-span: 1;
-    grid-row-end: span 1;
-  }
-
-  #w-node-d33381a5-b767-494f-65ea-f1eacf117a42-513af0b0 {
-    -ms-grid-column: span 1;
-    grid-column-start: span 1;
-    -ms-grid-column-span: 1;
-    grid-column-end: span 1;
-    -ms-grid-row: span 1;
-    grid-row-start: span 1;
-    -ms-grid-row-span: 1;
-    grid-row-end: span 1;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  #w-node-_71b4fa3a-cdd9-e52a-4c63-2ede20905101-513af0b0 {
-    -webkit-box-ordinal-group: -9998;
-    -webkit-order: -9999;
-    -ms-flex-order: -9999;
-    order: -9999;
-  }
-
-  #w-node-_1364441d-aefb-a156-e66a-d93c58f914e4-513af0b0 {
-    -ms-grid-row: 1;
-    -ms-grid-column: 3;
-    grid-area: Area;
-  }
-
-  .grid-2>#w-node-_1364441d-aefb-a156-e66a-d93c58f914e4-513af0b0 {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .hero-grid>#w-node-_1364441d-aefb-a156-e66a-d93c58f914e4-513af0b0 {
-    -ms-grid-row: 1;
-    -ms-grid-column: 3;
-  }
 }
 @font-face {
   font-family: 'Relative';
