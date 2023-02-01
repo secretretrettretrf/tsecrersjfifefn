@@ -1,4 +1,4 @@
-/* Generated on: Wed Feb 01 2023 21:28:00 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Feb 01 2023 23:39:22 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -375,7 +375,7 @@ p {
 
 .paragraph-m.text-centred {
   margin-bottom: 24px;
-  font-family: Manrope, sans-serif;
+  font-family: Relative, sans-serif;
 }
 
 .paragraph-m.text-centred.margin-l {
@@ -502,17 +502,17 @@ p {
 .section.grain {
   top: 0px;
   background-color: #fff;
-  background-image: none;
-  background-size: auto;
+  background-image: url("https://uploads-ssl.webflow.com/63cf186b2479a1096733f7d3/63cf186c2479a11b6833f815_Grain_Latest.png");
+  background-size: 300px 300px;
 }
 
 .section.grain.top-140 {
   padding-top: 749px;
-  padding-bottom: 265px;
+  padding-bottom: 49px;
   background-color: transparent;
   background-image: url("https://uploads-ssl.webflow.com/63cf186b2479a1096733f7d3/63d7c36f75b216f0928b9446_63cf0f740fb7ec436a329fbd_hero-bloom-p-130x130q80.png"), url("https://uploads-ssl.webflow.com/63cf186b2479a1096733f7d3/63cf186c2479a11b6833f815_Grain_Latest.png"), url("https://uploads-ssl.webflow.com/63cf186b2479a1096733f7d3/63d7c23d53ff2cb634155d0e_TheBrandOracle-modified.png");
   background-position: 0px 0px, 0px 0px, 50% 50%;
-  background-size: cover, auto, cover;
+  background-size: cover, 300px 300px, cover;
   opacity: 1;
   mix-blend-mode: normal;
 }
@@ -521,8 +521,8 @@ p {
   padding-top: 40px;
   padding-bottom: 70px;
   background-color: #fff;
-  background-image: none;
-  background-size: auto;
+  background-image: url("https://uploads-ssl.webflow.com/63cf186b2479a1096733f7d3/63cf186c2479a11b6833f815_Grain_Latest.png");
+  background-size: 300px 300px;
 }
 
 .section.grain.subpage-hero {
@@ -821,6 +821,7 @@ p {
 }
 
 .text-light-grey {
+  font-family: Relative, sans-serif;
   color: hsla(0, 0%, 100%, 0.65);
 }
 
@@ -1050,7 +1051,7 @@ p {
 .heading-2-small {
   font-family: Manrope, sans-serif;
   color: #000;
-  font-size: 6em;
+  font-size: 5em;
   line-height: 1;
   font-weight: 600;
 }
@@ -1058,7 +1059,7 @@ p {
 .heading-2-small.text-white {
   font-family: Manrope, sans-serif;
   color: #fff;
-  font-size: 6em;
+  font-size: 4em;
   line-height: 1;
   font-weight: 600;
 }
@@ -1295,7 +1296,7 @@ p {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  font-family: Manrope, sans-serif;
+  font-family: Relative, sans-serif;
 }
 
 .fixed-cta {
@@ -2259,6 +2260,7 @@ p {
   right: 0%;
   bottom: 0%;
   z-index: 100;
+  display: none;
   width: 120px;
   height: 120px;
   margin: auto;
@@ -2342,10 +2344,11 @@ p {
 .hero-heading {
   position: relative;
   display: inline;
-  max-width: 640px;
+  max-width: none;
   padding-left: 0px;
   font-family: Montserrat, sans-serif;
   color: #000;
+  line-height: 60px;
 }
 
 .fixed-cta-container {
@@ -2924,11 +2927,12 @@ p {
 }
 
 .bold-text {
-  padding-right: 298px;
-  font-family: Montserrat, sans-serif;
+  margin-right: 220px;
+  padding-right: 0px;
+  font-family: Relative, sans-serif;
   color: #fff;
   font-size: 72px;
-  line-height: 20px;
+  line-height: 10px;
   background-clip: border-box;
   -webkit-text-fill-color: inherit;
 }
@@ -3123,10 +3127,12 @@ p {
 
 .paragraph {
   font-family: Manrope, sans-serif;
+  font-size: 18px;
 }
 
 .paragraph-2 {
   font-family: Manrope, sans-serif;
+  font-size: 18px;
 }
 
 .grid-2 {
@@ -3509,10 +3515,12 @@ p {
 
 .paragraph-3 {
   font-family: Manrope, sans-serif;
+  font-size: 18px;
 }
 
 .paragraph-4 {
   font-family: Manrope, sans-serif;
+  font-size: 18px;
 }
 
 .lottie-animation-3 {
@@ -3552,7 +3560,7 @@ p {
   font-family: Montserrat, sans-serif;
   color: #fff;
   font-size: 40px;
-  line-height: 40px;
+  line-height: 10px;
   font-weight: 500;
   text-align: center;
   text-transform: uppercase;
@@ -3598,6 +3606,10 @@ p {
 
 .circle-container-2 {
   position: fixed;
+  left: auto;
+  top: 2%;
+  right: 0%;
+  bottom: 0%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3630,7 +3642,9 @@ p {
 }
 
 .p-xl-start {
+  margin-left: -101px;
   padding-top: 4em;
+  text-align: left;
 }
 
 .wow-heading {
@@ -3672,12 +3686,15 @@ p {
 }
 
 .ipad-screen {
-  position: absolute;
-  left: 3%;
-  top: 4%;
+  position: fixed;
+  left: -16px;
+  top: 36px;
+  right: 0px;
+  bottom: 0px;
   z-index: 1;
   width: 93.8%;
   height: 91.6%;
+  margin-left: 52px;
   -o-object-fit: cover;
   object-fit: cover;
 }
@@ -3699,6 +3716,9 @@ p {
   padding-top: 0px;
   padding-bottom: 100px;
   background-color: #fff;
+  background-image: url("https://uploads-ssl.webflow.com/63cf186b2479a1096733f7d3/63cf186c2479a11b6833f815_Grain_Latest.png");
+  background-position: 0px 0px;
+  background-size: 300px 300px;
 }
 
 .bold-text-9 {
@@ -3731,14 +3751,13 @@ p {
   }
 
   .section.grain {
-    background-image: none;
-    background-position: 0px 0px;
-    background-size: auto;
+    background-image: url("https://uploads-ssl.webflow.com/63cf186b2479a1096733f7d3/63cf186c2479a11b6833f815_Grain_Latest.png");
+    background-size: 300px 300px;
   }
 
   .section.grain.top-140 {
     padding-top: 716px;
-    padding-bottom: 265px;
+    padding-bottom: 131px;
     background-color: transparent;
     background-image: url("https://uploads-ssl.webflow.com/63cf186b2479a1096733f7d3/63d7c36f75b216f0928b9446_63cf0f740fb7ec436a329fbd_hero-bloom-p-130x130q80.png"), url("https://uploads-ssl.webflow.com/63cf186b2479a1096733f7d3/63cf186c2479a11b6833f815_Grain_Latest.png"), url("https://uploads-ssl.webflow.com/63cf186b2479a1096733f7d3/63d7c23d53ff2cb634155d0e_TheBrandOracle-modified.png");
     background-position: 0px 0px, 0px 0px, 50% 50%;
@@ -3747,9 +3766,8 @@ p {
 
   .section.grain.padding-top-40 {
     background-color: transparent;
-    background-image: none;
-    background-position: 0px 0px;
-    background-size: auto;
+    background-image: url("https://uploads-ssl.webflow.com/63cf186b2479a1096733f7d3/63cf186c2479a11b6833f815_Grain_Latest.png");
+    background-size: 300px 300px;
   }
 
   .nav-text {
@@ -3782,6 +3800,10 @@ p {
   .figma-embed-wrapper {
     border-style: none;
     border-radius: 0px;
+  }
+
+  .heading-2-small {
+    font-size: 4em;
   }
 
   .heading-2-small.text-white {
@@ -3831,14 +3853,15 @@ p {
     margin-left: 53px;
     padding: 0px;
     grid-column-gap: 63px;
-    grid-template-areas: ". Area";
-    -ms-grid-columns: 0.25fr 63px 500px;
-    grid-template-columns: 0.25fr 500px;
+    grid-template-areas: ".";
+    -ms-grid-columns: 0.25fr;
+    grid-template-columns: 0.25fr;
     color: #fff;
   }
 
   .hero-content-wrap.design-to-webflow {
     padding-right: 0px;
+    padding-bottom: 0px;
     padding-left: 0px;
   }
 
@@ -3885,6 +3908,7 @@ p {
     padding: 0px;
     font-family: Manrope, sans-serif;
     color: #fff;
+    line-height: 70px;
   }
 
   .label-arrow {
@@ -3914,13 +3938,14 @@ p {
 
   .bold-text {
     display: inline;
-    margin-right: 200px;
+    margin-right: 220px;
     margin-left: auto;
-    padding-right: 200px;
+    padding-right: 0px;
     padding-left: 0px;
     font-family: Relative, sans-serif;
     color: #fff;
     font-size: 72px;
+    line-height: 60px;
   }
 
   .bold-text-2 {
@@ -3970,10 +3995,12 @@ p {
 
   .paragraph {
     font-family: Relative, sans-serif;
+    font-size: 18px;
   }
 
   .paragraph-2 {
     font-family: Relative, sans-serif;
+    font-size: 18px;
   }
 
   .image-14 {
@@ -4077,10 +4104,12 @@ p {
 
   .paragraph-3 {
     font-family: Relative, sans-serif;
+    font-size: 18px;
   }
 
   .paragraph-4 {
     font-family: Relative, sans-serif;
+    font-size: 18px;
   }
 
   .lottie-animation-3 {
@@ -4094,7 +4123,7 @@ p {
   .circle-text {
     color: #fff;
     font-size: 40px;
-    line-height: 40px;
+    line-height: 10px;
   }
 
   .circle {
@@ -5498,7 +5527,7 @@ p {
   .heading-2-small.text-white {
     padding-right: 0px;
     color: #fff;
-    font-size: 4em;
+    font-size: 3em;
     text-align: center;
   }
 
@@ -5693,6 +5722,7 @@ p {
     width: 350px;
     margin: 78px 0px 1px -13px;
     padding: 0px;
+    font-family: Relative, sans-serif;
     font-size: 48px;
     line-height: 50px;
     text-align: left;
@@ -5822,7 +5852,7 @@ p {
     margin-top: 0px;
     padding-top: 0px;
     padding-right: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 72px;
   }
 
   .fs-3dglobe-container {
@@ -5844,7 +5874,17 @@ p {
     display: none;
   }
 
+  .p-xl-start {
+    margin-left: 1px;
+    text-align: left;
+  }
+
   .ipad-screen {
+    position: absolute;
+    left: -40px;
+    top: 4%;
+    right: 0%;
+    bottom: auto;
     border-radius: 4px;
   }
 
@@ -5854,14 +5894,14 @@ p {
   }
 }
 
-#w-node-b282fa53-c876-a363-d487-995c7a386331-513af0b0 {
+#w-node-b282fa53-c876-a363-d487-995c7a386331-f66b2ae3 {
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
 }
 
-#w-node-_30c8d968-55fe-8251-987b-0e377becbfc6-513af0b0 {
+#w-node-_30c8d968-55fe-8251-987b-0e377becbfc6-f66b2ae3 {
   -ms-grid-column-span: 8;
   grid-column-end: 11;
   -ms-grid-column: 3;
@@ -5872,12 +5912,12 @@ p {
   grid-row-start: 1;
 }
 
-#w-node-_4fc1dcd0-5de9-92ae-fd78-09d5d6efa273-0a3af0b2 {
+#w-node-_4fc1dcd0-5de9-92ae-fd78-09d5d6efa273-cb6b2ae4 {
   -ms-grid-column-align: end;
   justify-self: end;
 }
 
-#w-node-_56e3d9d2-042f-1fc0-0f8f-5151adc683a4-4d3af0b4 {
+#w-node-_56e3d9d2-042f-1fc0-0f8f-5151adc683a4-826b2ae6 {
   -ms-grid-row: span 1;
   grid-row-start: span 1;
   -ms-grid-row-span: 1;
@@ -5888,9 +5928,24 @@ p {
   grid-column-end: span 1;
 }
 
-#w-node-_56e3d9d2-042f-1fc0-0f8f-5151adc683a7-4d3af0b4 {
+#w-node-_56e3d9d2-042f-1fc0-0f8f-5151adc683a7-826b2ae6 {
   -ms-grid-column-align: end;
   justify-self: end;
+}
+
+@media screen and (min-width: 1280px) {
+  #w-node-b282fa53-c876-a363-d487-995c7a386331-f66b2ae3 {
+    -ms-grid-row-align: center;
+    align-self: center;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+  }
 }
 @font-face {
   font-family: 'Relative';
