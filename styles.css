@@ -1,4 +1,4 @@
-/* Generated on: Tue Jan 31 2023 23:04:48 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Feb 01 2023 09:38:03 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -322,7 +322,7 @@ p {
 .margin-0 {
   margin-top: 0px;
   margin-bottom: 0px;
-  font-family: Montserrat, sans-serif;
+  font-family: Relative, sans-serif;
 }
 
 .text-centred {
@@ -511,6 +511,7 @@ p {
 
 .section.grain.padding-top-40 {
   padding-top: 40px;
+  padding-bottom: 70px;
   background-color: #fff;
   background-image: none;
   background-size: auto;
@@ -1043,6 +1044,10 @@ p {
   font-size: 56px;
   line-height: 64px;
   font-weight: 500;
+}
+
+.heading-2-small.text-white {
+  color: #fff;
 }
 
 .img-24 {
@@ -2911,6 +2916,10 @@ p {
   line-height: 20px;
 }
 
+.bold-text-2 {
+  color: #5ff;
+}
+
 .bold-text-4 {
   color: red;
 }
@@ -3086,11 +3095,11 @@ p {
 }
 
 .paragraph {
-  font-family: Montserrat, sans-serif;
+  font-family: Relative, sans-serif;
 }
 
 .paragraph-2 {
-  font-family: Montserrat, sans-serif;
+  font-family: Relative, sans-serif;
 }
 
 .grid-2 {
@@ -3467,11 +3476,11 @@ p {
 }
 
 .paragraph-3 {
-  font-family: Montserrat, sans-serif;
+  font-family: Relative, sans-serif;
 }
 
 .paragraph-4 {
-  font-family: Montserrat, sans-serif;
+  font-family: Relative, sans-serif;
 }
 
 .lottie-animation-3 {
@@ -3595,7 +3604,7 @@ p {
   }
 
   .margin-0 {
-    font-family: Montserrat, sans-serif;
+    font-family: Relative, sans-serif;
   }
 
   .section.grain {
@@ -3832,11 +3841,11 @@ p {
   }
 
   .paragraph {
-    font-family: Montserrat, sans-serif;
+    font-family: Relative, sans-serif;
   }
 
   .paragraph-2 {
-    font-family: Montserrat, sans-serif;
+    font-family: Relative, sans-serif;
   }
 
   .image-14 {
@@ -3939,11 +3948,11 @@ p {
   }
 
   .paragraph-3 {
-    font-family: Montserrat, sans-serif;
+    font-family: Relative, sans-serif;
   }
 
   .paragraph-4 {
-    font-family: Montserrat, sans-serif;
+    font-family: Relative, sans-serif;
   }
 
   .lottie-animation-3 {
