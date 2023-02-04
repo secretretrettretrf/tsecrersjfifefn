@@ -1,4 +1,5 @@
-/* Generated on: Fri Feb 03 2023 16:51:08 GMT+0000 (Coordinated Universal Time) */
+
+/* Generated on: Sat Feb 04 2023 17:58:32 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -3932,6 +3933,85 @@ p {
   text-transform: uppercase;
 }
 
+.text-block-3 {
+  margin-top: 43px;
+  margin-left: 61px;
+  padding-bottom: 34px;
+  color: #fff;
+  font-size: 30px;
+}
+
+.link-block {
+  display: inline;
+}
+
+.link {
+  margin-left: 115px;
+  color: #fff;
+  font-size: 25px;
+}
+
+.marquee-horizontal {
+  position: relative;
+  z-index: 200;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  height: 40px;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #161616;
+}
+
+.track-horizontal-alt {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.marquee-text {
+  margin-right: 8vw;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.bold-text-10 {
+  background-image: linear-gradient(88deg, #f0c, #09f);
+  color: #fff;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bold-text-11 {
+  background-image: linear-gradient(107deg, #05ff54, #007fff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 @media screen and (min-width: 1280px) {
   .button.hide-on-t-m {
     margin-top: 45px;
@@ -3980,7 +4060,7 @@ p {
 
   .section.grain.top-140 {
     padding-top: 83px;
-    padding-bottom: 83px;
+    padding-bottom: 27px;
     background-image: url("https://uploads-ssl.webflow.com/63cf186b2479a1096733f7d3/63d7c36f75b216f0928b9446_63cf0f740fb7ec436a329fbd_hero-bloom-p-130x130q80.png"), url("https://uploads-ssl.webflow.com/63cf186b2479a1096733f7d3/63cf186c2479a11b6833f815_Grain_Latest.png"), url("https://uploads-ssl.webflow.com/63cf186b2479a1096733f7d3/63d7c23d53ff2cb634155d0e_TheBrandOracle-modified.png");
     background-position: 0px 0px, 0px 0px, 50% 50%;
     background-size: cover, auto, cover;
@@ -4430,6 +4510,10 @@ p {
 
   .nav-text-2 {
     color: #fff;
+  }
+
+  .marquee-horizontal {
+    background-color: #000;
   }
 }
 
@@ -6258,6 +6342,16 @@ p {
 
   .circle-container-3 {
     display: none;
+  }
+
+  .text-block-3 {
+    margin-left: 24px;
+    line-height: 25px;
+  }
+
+  .link {
+    margin-left: 29px;
+    font-size: 20px;
   }
 }
 
