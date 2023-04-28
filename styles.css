@@ -2808,9 +2808,7 @@ p {
 .process-image {
   width: 240px;
   height: 240px;
-  background-image: linear-gradient(117deg, #000, #000 0%, rgba(255, 255, 255, 0) 73%), url("https://uploads-ssl.webflow.com/63cf186b2479a1096733f7d3/63cf186c2479a10d6133f7e7_Process_step_background.png");
-  background-position: 0 0, 50%;
-  background-size: auto, 300px 300px;
+  background-image: linear-gradient(117deg, #000, #000 0%, rgba(255, 255, 255, 0) 73%);
   border-radius: 12px;
   justify-content: center;
   align-items: center;
@@ -3372,7 +3370,7 @@ p {
   border-radius: 16px;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 24px;
+  padding: 24px 24px 53px;
   display: flex;
 }
 
@@ -4859,8 +4857,13 @@ p {
 
 .p-xl-start {
   text-align: left;
-  margin-left: -101px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 0;
   padding-top: 2.6em;
+  padding-left: 0;
+  display: flex;
 }
 
 .wow-heading {
@@ -4904,14 +4907,14 @@ p {
 
 .ipad-screen {
   z-index: 1;
-  width: 93.8%;
-  height: 91.6%;
+  width: 95%;
+  height: 94%;
   object-fit: cover;
-  margin-left: 52px;
+  margin-left: 24px;
   position: fixed;
-  top: 36px;
+  top: 19px;
   bottom: 0;
-  left: -16px;
+  left: 1px;
   right: 0;
 }
 
@@ -5216,6 +5219,7 @@ p {
 .hero-heading-3 {
   color: #000;
   text-align: center;
+  align-self: center;
   font-family: Montserrat, sans-serif;
   font-weight: 700;
 }
@@ -5244,11 +5248,65 @@ p {
 
 .lottie-animation-7 {
   width: 150px;
+  padding-top: 20px;
+  padding-left: 20px;
   position: absolute;
   top: 0%;
   bottom: auto;
   left: 0%;
   right: auto;
+}
+
+.button-4 {
+  background-color: #000;
+  border-radius: 10px;
+  align-self: center;
+  font-family: Relative, sans-serif;
+  font-weight: 700;
+}
+
+.footer-dark-2 {
+  background-color: #fff;
+  border-bottom: 1px solid #e4ebf3;
+  padding: 50px 30px 15px;
+  position: relative;
+}
+
+.container-4 {
+  width: 100%;
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-wrapper-3 {
+  max-width: 900px;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.footer-link-2 {
+  color: #1a1b1f;
+  order: 1;
+  align-self: center;
+  margin-top: 12px;
+  margin-bottom: 6px;
+  font-size: 14px;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+.footer-link-2:hover {
+  color: rgba(26, 27, 31, .75);
+}
+
+.footer-copyright-center-2 {
+  text-align: center;
+  font-size: 14px;
+  line-height: 16px;
 }
 
 @media screen and (min-width: 1280px) {
@@ -5323,9 +5381,7 @@ p {
   }
 
   .process-image {
-    background-image: linear-gradient(117deg, #000, #000 0%, rgba(255, 255, 255, 0) 73%), url("https://uploads-ssl.webflow.com/63cf186b2479a1096733f7d3/63cf186c2479a10d6133f7e7_Process_step_background.png");
-    background-position: 0 0, 50%;
-    background-size: auto, 300px 300px;
+    background-image: linear-gradient(117deg, #000, #000 0%, rgba(255, 255, 255, 0) 73%);
   }
 
   .figma-embed-wrapper {
@@ -5552,9 +5608,9 @@ p {
   }
 
   .footer-link {
-    margin-top: 148px;
-    margin-left: 32px;
-    margin-right: -187px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
     padding-top: 31px;
   }
 
@@ -5563,9 +5619,10 @@ p {
   }
 
   .image-18 {
-    margin-top: 13px;
-    padding-top: 6px;
-    padding-bottom: 31px;
+    margin-top: 40px;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 42px;
   }
 
   .image-19 {
@@ -5745,8 +5802,59 @@ p {
     padding-right: 184px;
   }
 
+  .hero-heading-3 {
+    align-self: center;
+  }
+
   .bold-text-14 {
     text-decoration: underline;
+  }
+
+  .footer-dark-2 {
+    padding-top: 0;
+  }
+
+  .footer-link-2 {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0;
+  }
+
+  .image-21 {
+    margin-top: 0;
+    padding-top: 13px;
+    padding-bottom: 0;
+    padding-left: 0;
+  }
+
+  .footer-copyright-center-2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: -2px;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .footer-link-2 {
+    order: 1;
+    align-self: center;
+    margin: 0;
+    padding-top: 0;
+  }
+
+  .image-21 {
+    margin-top: 0;
+    padding-left: 0;
+  }
+
+  .footer-copyright-center-2 {
+    margin-top: 0;
   }
 }
 
@@ -6197,6 +6305,15 @@ p {
     grid-column-gap: 60px;
   }
 
+  .wow-heading.wow-gradient {
+    padding-left: 77px;
+  }
+
+  .wow-heading.wow-gradient.big {
+    padding-left: 78px;
+    display: block;
+  }
+
   .ipad-screen {
     border-radius: 7px;
   }
@@ -6231,6 +6348,10 @@ p {
   .rl-heading-style-h2-2 {
     padding-right: 0;
     font-size: 2.75rem;
+  }
+
+  .container-4 {
+    max-width: 728px;
   }
 }
 
@@ -6330,8 +6451,7 @@ p {
 
   .process-image {
     width: 100%;
-    background-image: url("https://uploads-ssl.webflow.com/63cf186b2479a1096733f7d3/63cf186c2479a1bb8b33f81b_Process%20Image%20Background%20Mobile.png");
-    background-size: cover;
+    background-image: none;
     margin-bottom: 24px;
   }
 
@@ -6832,11 +6952,27 @@ p {
   }
 
   .p-xl-start {
+    margin-left: 0;
     padding-top: 6em;
   }
 
+  .wow-heading.wow-gradient, .wow-heading.wow-gradient.big {
+    padding-left: 0;
+  }
+
+  .ipad-shape {
+    max-height: none;
+    max-width: 95%;
+    top: 0;
+    left: 8px;
+  }
+
   .ipad-screen {
+    width: 91%;
     border-radius: 6px;
+    position: absolute;
+    top: 11px;
+    left: -6px;
   }
 
   .wow-animation {
@@ -6865,6 +7001,38 @@ p {
     padding-left: 0;
     padding-right: 0;
     font-size: 2.25rem;
+  }
+
+  .hero {
+    align-items: center;
+  }
+
+  .hero-heading-3 {
+    margin-top: -44px;
+    margin-bottom: 4px;
+  }
+
+  .lottie-animation-8 {
+    max-height: 350px;
+    max-width: 350px;
+  }
+
+  .lottie-animation-9, .lottie-animation-10, .lottie-animation-11 {
+    max-width: 350px;
+  }
+
+  .footer-dark-2 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .footer-wrapper-3 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-link-2:hover {
+    color: rgba(26, 27, 31, .75);
   }
 }
 
@@ -7293,14 +7461,20 @@ p {
     padding-top: 4em;
   }
 
-  .wow-heading.wow-gradient, .wow-heading.wow-gradient.big {
+  .wow-heading.wow-gradient {
     color: #161616;
+  }
+
+  .wow-heading.wow-gradient.big {
+    color: #161616;
+    display: block;
   }
 
   .ipad-shape {
     width: 100%;
     max-width: none;
     display: block;
+    left: 0;
   }
 
   .ipad-screen {
@@ -7389,17 +7563,34 @@ p {
   .hero-heading-3 {
     margin-top: 0;
   }
+
+  .button-4 {
+    flex-direction: column;
+    align-items: center;
+    display: inline-block;
+    position: relative;
+    left: 60px;
+  }
+
+  .container-4 {
+    max-width: none;
+  }
 }
 
-#w-node-_7eb98f07-936b-66cd-26a4-aefeaed532aa-3dc60614 {
+#w-node-_8920d101-e47e-f96f-d0a3-1a6c98109e1c-3dc60614 {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
-#w-node-_7eb98f07-936b-66cd-26a4-aefeaed532cc-3dc60614 {
+#w-node-_8920d101-e47e-f96f-d0a3-1a6c98109e1d-3dc60614 {
+  align-self: center;
+  justify-self: center;
+}
+
+#w-node-_8920d101-e47e-f96f-d0a3-1a6c98109e2e-3dc60614 {
   justify-self: end;
 }
 
-#w-node-_30c8d968-55fe-8251-987b-0e377becbfc6-3dc60614 {
+#w-node-_8920d101-e47e-f96f-d0a3-1a6c98109e5b-3dc60614 {
   grid-area: 1 / 3 / 2 / 11;
 }
 
