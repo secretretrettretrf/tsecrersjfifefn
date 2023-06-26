@@ -7604,7 +7604,8 @@ p {
 
   .text-white.text-centred.margin-m {
     align-self: center;
-    font-size: 4em;
+    font-size: 56px;
+    font-weight: 400;
   }
 
   .multi-button-wrapper {
@@ -7653,9 +7654,9 @@ p {
 
   .heading-2-small {
     align-self: center;
-    font-size: 4em;
-    font-weight: 600;
-    line-height: 1;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 64px;
   }
 
   .heading-2-small.text-white {
