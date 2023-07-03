@@ -2497,6 +2497,7 @@ p {
 
 .section.black {
   background-color: #0a0a0a;
+  border-radius: 20px;
 }
 
 .section.black.confirmation-page {
@@ -2538,6 +2539,7 @@ p {
   background-color: #fff;
   background-image: none;
   background-size: auto;
+  border-radius: 20px;
   padding-top: 40px;
   padding-bottom: 70px;
 }
@@ -5545,6 +5547,7 @@ p {
 .c-flipping-cards-list {
   width: 100%;
   max-width: 1300px;
+  border-radius: 20px;
   flex-flow: wrap;
   align-content: stretch;
   justify-content: space-around;
