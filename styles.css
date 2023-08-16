@@ -6511,7 +6511,7 @@ figcaption {
   background-color: #000;
   -webkit-background-clip: text;
   background-clip: text;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .step-5-info-wrapper {
@@ -6650,8 +6650,8 @@ figcaption {
 .heading-2-small.text-white {
   color: #000;
   font-family: Neuekabel, sans-serif;
-  font-size: 56px;
-  font-weight: 500;
+  font-size: 4rem;
+  font-weight: 700;
   line-height: 64px;
 }
 
@@ -6838,7 +6838,7 @@ figcaption {
 
   .heading-2-small.text-white {
     color: #000;
-    font-weight: 500;
+    font-weight: 700;
   }
 }
 
@@ -6921,7 +6921,7 @@ figcaption {
 
   .heading-2-small.text-white {
     color: #000;
-    font-weight: 500;
+    font-weight: 700;
   }
 }
 
@@ -7115,7 +7115,7 @@ figcaption {
 
   .heading-2-small.text-white {
     color: #000;
-    font-weight: 500;
+    font-weight: 700;
   }
 }
 
