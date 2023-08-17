@@ -4791,7 +4791,7 @@ figcaption {
 }
 
 .spark-section.spark-light-background.phonepoint {
-  background-image: linear-gradient(#f59694, #fff 73%, #fff 99%, #fff);
+  background-image: linear-gradient(#ffc78f, #fff 99%, #fff 100%, #fff);
   border: 1px #000;
   border-radius: 0;
   padding-bottom: 0;
@@ -5634,7 +5634,7 @@ figcaption {
 
 .section-3.black {
   background-color: #0a0a0a;
-  background-image: linear-gradient(to top, #f59694, #fff 93%, #fff);
+  background-image: linear-gradient(to top, #ffc78f, #fff 38%, #fff 96%);
   border-radius: 20px;
   padding-top: 200px;
 }
@@ -6712,7 +6712,7 @@ figcaption {
   }
 
   .spark-section.spark-light-background.phonepoint {
-    background-image: linear-gradient(#f59694, #fff 74%, #fff);
+    background-image: linear-gradient(#ffc78f, #fff 100%, #fff);
   }
 
   .spark-section p {
@@ -6862,7 +6862,7 @@ figcaption {
   }
 
   .spark-section.spark-light-background.phonepoint {
-    background-image: linear-gradient(#f59694, #fff 71%, #fff);
+    background-image: linear-gradient(#ffc78f, #fff 100%, #fff);
   }
 
   .spark-section p {
@@ -6956,7 +6956,7 @@ figcaption {
   .spark-section.spark-light-background.phonepoint {
     grid-column-gap: 16px;
     grid-row-gap: 16px;
-    background-image: linear-gradient(#f59694 9%, #fff 71%, #fff 99%);
+    background-image: linear-gradient(#ffc78f 8%, #fff 92%, #fff 99%);
     grid-template-rows: auto auto;
     grid-template-columns: 2.75fr 2fr;
     grid-auto-columns: 1fr;
@@ -8621,7 +8621,7 @@ figcaption {
   }
 
   .spark-section.spark-light-background.phonepoint {
-    background-image: linear-gradient(#f59694, #fff 64%, #fff 96%);
+    background-image: linear-gradient(#ffc78f, #fff 64%, #fff 96%);
     margin-top: 0;
     padding-bottom: 395px;
     top: -65px;
@@ -8870,7 +8870,7 @@ figcaption {
   }
 
   .section-3.black {
-    background-image: linear-gradient(to top, #f59694, #fff 75%, #fff 99%);
+    background-image: linear-gradient(to top, #ffc78f, #fff 30%, #fff 99%);
     padding-top: 200px;
   }
 
